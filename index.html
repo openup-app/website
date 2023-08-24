@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>bonjour</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://use.typekit.net/zlz1tyy.css">
-  <link rel="stylesheet" href="https://use.typekit.net/zlz1tyy.css">
-  <script src="app.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>bonjour</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zlz1tyy.css">
+    <link rel="stylesheet" href="https://use.typekit.net/zlz1tyy.css">
+    <script src="app.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        /* Your existing CSS styles and media queries */
+        /* ... */
+    </style>
 </head>
 <body>
-  <div id="video-container">
-    <video autoplay muted loop playsinline id="my-video" >
-      <source src="video/Website Product Video 7.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <div id ="button-container">
-    <a href="https://example.com" class="image-button">
-      <img src="video/AppStore.png" alt="Image Description">
-  </a>
-  </div>
+    <div id="video-container">
+        <video autoplay muted loop playsinline id="my-video">
+            <!-- Small screen video -->
+            <source src="video/Website Product Video 7.mp4" type="video/mp4" media="(max-width: 414px)">
+        </video>
+    </div>
 
-  <div class ="navbar">
-    <a href = "index.html">Home</a>
-    <a href = "FAQ.html">FAQ</a>
-    <a href = "Terms.html">Terms</a>
-    <a href = "Privacy.html">Privacy</a>
-    <a href = "mailto:help@bonjourland.com">Help</a>
+    <div id="video-container2">
+      <video autoplay muted loop playsinline id="my-video2">
+          <source src="video/Wide Screen.mp4" type="video/mp4" media="(min-width: 415px)">
+          Your browser does not support the video tag.
+      </video>
+    </div>
+    
+    <div id="button-container">
+        <a href="https://apps.apple.com/us/app/bonjour-ut-meets/id1602042557" class="image-button">
+            <img src="video/AppStore.png" alt="Image Description">
+        </a>
+    </div>
 
-  </div>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="Terms.html">Terms</a>
+        <a href="Privacy.html">Privacy</a>
+        <a href="mailto:help@bonjourland.com">Help</a>
+    </div>
 </body>
 </html>

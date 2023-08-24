@@ -20,6 +20,23 @@
         width: 100%;
         height: 100%;
     }
+
+    #video-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    }
+
+    #my-video2 {
+        
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 0%;
+    }
     .image-button img {
         width: 20vb; /* Set the width to your desired size */
         height: auto; /* This maintains the aspect ratio */
@@ -100,6 +117,141 @@
         font-family: neue-haas-unica, sans-serif;
         font-weight: 300;
         font-size: 30px;
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+
+
+    }
+
+
+}
+
+
+@media only screen and (min-width:415px) {
+    
+    body {
+        background-color: rgb(255, 255, 255);
+        display: inline-flexbox;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    #video-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 0%;
+        height: 0%;
+
+    }
+
+    #my-video {
+        
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 0%;
+    }
+
+    #video-container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    #my-video2 {
+        
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .image-button img {
+        width: 30vb; /* Set the width to your desired size */
+        height: auto; /* This maintains the aspect ratio */
+    }
+    
+    #button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2%;
+        padding-left: 30%;
+        padding-right: 30%;
+        padding-bottom: 5%;
+        
+    }
+
+    .navbar a {
+        font-family: neue-haas-unica, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 1rem;
+        color: #000000;
+        text-decoration: none;
+
+    }
+
+
+
+    /* FAQ.html below this  */
+
+    .faq {
+        padding-top: 5%;
+    }
+
+    .faq h1 {
+        font-family: neue-haas-unica, sans-serif;
+        font-weight: 800;
+        font-size: 2rem;
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 5%;
+
+    }
+
+    .faq__questions{
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+
+    .faq__questions h2 {
+        font-family: neue-haas-unica, sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        font-style: normal;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .faq__questions p {
+        font-family: neue-haas-unica, sans-serif;
+        font-weight: 300;
+        font-size: 20px;
         font-style: normal;
         justify-content: center;
         align-items: center;
